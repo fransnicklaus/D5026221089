@@ -1,0 +1,48 @@
+h1 {
+    font-size: 25px;
+    color:white;
+}
+
+h2{
+    font-size:20px;
+    color:white;
+}
+
+h6{
+    font-size: 15px;
+    color: white;
+}
+
+h5{
+    color:orange;
+}
+
+body{
+    color:white;
+}
+
+a {
+    color:green;
+}
+
+.padding-right{
+    padding-right: 10px;
+}
+
+.button-size{
+    color:white;
+}
+
+.image {
+    border:1px solid grey;
+}
+
+.image-padding{
+    padding-left: 20px;
+}
+
+.button-order {
+    display: block;
+    padding-left: 20px;
+    padding-top: 20px;
+}

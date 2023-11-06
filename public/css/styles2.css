@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: linear-gradient(rgb(126,137,152),rgb(30,35,48)) ;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.frans-logo-tengah {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    max-width:100px;
+    height:auto;
+}
+
+.frans-nama-tengah{
+    font-family: Inter;
+    font-weight: 500;
+    color:white;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.frans-text{
+    color:white;
+    border: 1px solid white;
+    border-width: 1px;
+    text-align: center;
+
+    width: 600px;
+    height: 30px;
+    padding-top: 15px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.frans-icon {
+    padding-top: 30px;
+    padding-left: 17px;
+    display: inline-block;
+    max-width: 25px;
+    height:auto;
+    text-decoration: none;
+}
+
+.frans-icon-linktree{
+    display: block;
+    padding: 25px 0px;
+    margin: auto;
+    text-align: center;
+    width: 95px;
+}
+
+.frans-center {
+    text-align: center;
+}
+
+.frans-text:hover{
+    color:black;
+    background-color: white;
+}
+
