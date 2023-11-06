@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -70,3 +71,7 @@ Route::get('5026221089', function() {
 Route::get('ETS', function() {
     return view('ETS');
 });
+
+Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
+
+Route::get('show', 'App\Http\Controllers\DosenController@showBlog');
