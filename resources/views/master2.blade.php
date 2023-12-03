@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="container">
+    {{-- <div class="container-fluid"> --}}
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#">5026221089 - Frans Nicklaus Gusyanto</a>
@@ -36,10 +36,8 @@
               </li>
             </ul>
           </nav>
-        <hr/>
-        <br/>
-        <br/>
-
+    {{-- </div> --}}
+    <div class="container">
         <!-- bagian judul halaman blog -->
         @yield('judul_halaman')
 
@@ -49,6 +47,7 @@
 
         <!-- bagian konten blog -->
 	@yield('konten')
+</div>
 
 
 	<br/>

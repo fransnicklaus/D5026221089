@@ -66,6 +66,7 @@
                                     <a href="latihan1">Latihan1</a><br>
                                     <a href="5026221089-linktree">Linktree</a><br>
                                     <a href="ETS">ETS</a><br>
+                                    <a href="pegawai">Pegawai</a>
 
                                     <br>
                                     <?php echo date("D d M Y") ; ?>
