@@ -99,8 +99,17 @@ Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
-
+//Nilai Kuliah
 Route::get('/nilai','App\Http\Controllers\NilaikuliahController@index');
 Route::get('/nilai/tambah','App\Http\Controllers\NilaikuliahController@tambah');
 Route::post('/nilai/store','App\Http\Controllers\NilaikuliahController@store');
 
+//Snack
+Route::get('/snack','App\Http\Controllers\SnackController@index');
+Route::get('/snack/tambah','App\Http\Controllers\SnackController@tambah');
+Route::post('/snack/store','App\Http\Controllers\SnackController@store');
+Route::get('/snack/edit/{id}','App\Http\Controllers\SnackController@edit');
+Route::post('/snack/update','App\Http\Controllers\SnackController@update');
+Route::get('/snack/hapus/{id}','App\Http\Controllers\SnackController@hapus');
+Route::get('/snack/view/{id}','App\Http\Controllers\SnackController@view');
+Route::get('/snack/cari','App\Http\Controllers\SnackController@cari');
