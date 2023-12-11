@@ -113,3 +113,10 @@ Route::post('/snack/update','App\Http\Controllers\SnackController@update');
 Route::get('/snack/hapus/{id}','App\Http\Controllers\SnackController@hapus');
 Route::get('/snack/view/{id}','App\Http\Controllers\SnackController@view');
 Route::get('/snack/cari','App\Http\Controllers\SnackController@cari');
+
+//Mahasiswa
+Route::get('/mahasiswa','App\Http\Controllers\MahasiswaController@index');
+Route::get('/mahasiswa/view/{id}','App\Http\Controllers\MahasiswaController@view');
+Route::get('/mahasiswa/edit/{id}','App\Http\Controllers\MahasiswaController@edit');
+Route::post('/mahasiswa/update','App\Http\Controllers\MahasiswaController@update');
+

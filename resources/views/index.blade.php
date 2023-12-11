@@ -2,7 +2,8 @@
     @section('title', 'Database Pegawai')
 
     @section('judul_halaman')
-        <div class="container pt-4">
+
+        <div class="container" style="padding-top:4em">
             <h3>Data Pegawai</h3>
             <a class="btn btn-warning" href="/pegawai">Home</a>
             <a class="btn btn-primary" href="/pegawai/tambah"> + Tambah Pegawai Baru</a>

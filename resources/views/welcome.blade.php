@@ -19,6 +19,7 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
@@ -66,7 +67,10 @@
                                     <a href="latihan1">Latihan1</a><br>
                                     <a href="5026221089-linktree">Linktree</a><br>
                                     <a href="ETS">ETS</a><br>
-                                    <a href="pegawai">Pegawai</a>
+                                    <a href="pegawai">Pegawai</a> <br>
+                                    <a href="snack">Snack</a> <br>
+                                    <a href="nilai">Nilai Kuliah</a> <br>
+                                    <a href="mahasiswa">Mahasiswa</a>
 
                                     <br>
                                     <?php echo date("D d M Y") ; ?>

@@ -1,7 +1,7 @@
 @extends('master2')
 
 @section('judul_halaman')
-    <div class="container pt-4">
+    <div class="container" style="padding-top:4em">
         <h3>Data Snack</h3>
         <a class="btn btn-warning" href="/snack">Home</a>
         <a class="btn btn-primary" href="/snack/tambah"> + Tambah Snack</a>

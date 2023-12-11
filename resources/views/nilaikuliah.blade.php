@@ -3,7 +3,7 @@
 
 
 @section('judul_halaman')
-<div class="container pt-4">
+<div class="container" style="padding-top:4em">
     <h3>Data Nilai Mahasiswa</h3>
     <a class="btn btn-warning" href="/nilai">Home</a>
     <a class="btn btn-primary" href="/nilai/tambah"> + Tambah Mahasiswa Baru</a>
